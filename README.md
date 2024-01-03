@@ -8,10 +8,10 @@ mot de passe : vagrant \
 Rq : (regardez plus haut généralement N° de port: 2222)\
 
 Travailler dans le master avec l'utilisateur root lancer: sudo su \ 
-puis taper : kubectl get nodes \
+puis taper : kubectl get nodes 
 
-NB : (si toutefois le worker n'est pas monté (notReady) ) taper : vagrant up worker1 \
-(dans un autre terminal bien entendu) \
+NB : (si toutefois le worker n'est pas monté (notReady) ) taper : vagrant up worker1 
+(dans un autre terminal bien entendu) 
 
 # Astuce : Pour utiliser k à la place de kubectl 
 taper sur votre Terminal :\
