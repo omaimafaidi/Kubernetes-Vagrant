@@ -1,4 +1,4 @@
-# Astuce : Pour utiliser k à la place kubectl 
+# Astuce : Pour utiliser k à la place de kubectl 
 taper sur votre Terminal :
 #####Kubectl autocomplete#############
 source <(kubectl completion bash)
