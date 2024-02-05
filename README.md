@@ -9,6 +9,7 @@ Rq : (regardez plus haut généralement N° de port: 2222)
 
 Travailler dans le master avec l'utilisateur root lancer: sudo su  
 puis taper : kubectl get nodes 
+             yum update && yum install -y vim 
 
 NB : (si toutefois le worker n'est pas monté (notReady) ) taper : vagrant up worker1 \
 (dans un autre terminal bien entendu) 
