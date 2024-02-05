@@ -20,7 +20,7 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc \
 alias k=kubectl \
 complete -o default -F __start_kubectl k
 
-#Weave Net can be installed onto your CNI-enabled Kubernetes cluster with a single command:
+#Weave Net can be installed onto your CNI-enabled Kubernetes cluster with a single command:(obligatoire à installer)
 
 kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
 
