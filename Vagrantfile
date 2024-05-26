@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
     master.vm.hostname = "master"
     master.vm.provider "virtualbox" do |v|
       v.name = "master"
-      v.memory = 2048
+      v.memory = 4096
       v.cpus = 2
     end
     master.vm.provision :shell do |shell|
